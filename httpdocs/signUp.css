@@ -1,0 +1,139 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("https://s3.amazonaws.com/gumroad/files/1014902753894/ac4240b39b994c90a8952017b1eea32f/original/low%20poly%20background%20teal%202.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.signup-box{
+	width: 320px;
+	height: 500px;
+	background: white;
+	colour: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10%;
+	left: calc(50% - 50%);
+	margin-left: 109px;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.signup-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.signup-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.signup-box input[type="text"], input[type="password"], input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid ;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	colour: #fff;
+	font-size: 16px;
+}
+
+.signup-box input[type="submit"], input[type="button"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #71c4ae;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.signup-box input[type="submit"]:hover, input[type="button"]:hover
+{
+	cursor: pointer;
+	background: #679186;
+	color: #000;
+}
+
+
+.signup-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#fff;
+}
+
+
+.meter[value="20"]::-webkit-meter-optimum-value { background: #c62b23; }
+.meter[value="40"]::-webkit-meter-optimum-value { background: #e5df2d; }
+.meter[value="60"]::-webkit-meter-optimum-value { background: #e5b02d; }
+.meter[value="80"]::-webkit-meter-optimum-value { background: #42a1f4; }
+.meter[value="100"]::-webkit-meter-optimum-value { background: #418439; }
+
+.tooltip {
+    position: fixed;
+    display: inline-block;
+	margin-top: -70%;
+	left: 35%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 850%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.info{
+	margin-top: -70%;
+	left: 35%;
+	
+}
+
+
+
